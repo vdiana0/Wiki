@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Wiki Infraestructura</title>
+</head>
+<body>
+    <header>
+        <nav class="logo_principal"><a href="../index.html">
+            <img src="../assets/imagenes/logoPrincipal.png" alt="TopGroup">
+        </a></nav>
+        
+        <nav class="content_titulo" id="content_titulo">
+            <h1>Documentación Infraestructura</h1>
+        </nav>
+    </nav>
+
+</header>
+    <main> 
+
+        <section class="titulo_secu"> Documentación Infraestructura
+            <p>Este espacio contienen netamente información a cerca de área de Infraestructura. Manuales para los integrantes del equipo y paso a paso de los procesos que son manejados </p>
+        </section>
+
+        <section class="informacion">
+
+            <button class="acordeon">Acceso a Keepass</button>
+             <article class="desplegable">
+                <p>
+                    KEEPASS: Dentro de Keepass vas a encontrar el acceso a todo los lugares requeridos por el equipo, entra en infraestructura - Documentos/Keepass. Selecciona BD_TEC_COL.kdbx e ingresa con la contraseña <a class="correo">P4$$w0rdT0P</a>  </p>
+                    <br><img class="keepass" src="../assets/imagenes/accesoKeepass.png" alt="Acceso a Keepass" class="redmine">
+            </article>
+
+            <button class="acordeon">Accesos principales</button>
+            <article class="desplegable">
+               <p>ZABBIX: Haciendo click <a class="correo" href="https://zabbix.topgroup.tech/zabbix/zabbix.php?action=dashboard.view">AQUÍ</a> vas a acceder al tablero de Zabbix, inicia sesión con tus credenciales una vez ya autorizado. Verás las alertas.
+               <br>
+               <br>
+               KOWL: Haciendo click <a href="https://kafka.sm-co-prod.aws.cencosud.com/kafkaweb/topics/my-connect-cluster-status?o=-1&p=-1&q&s=50#messages" class="correo">AQUÍ</a> vas a poder visualizar los conectores.
+               <br>
+               <br>
+               SHAREPOINT: Haciendo click <a href="https://topgroupsa.sharepoint.com/sites/Infraestructura/Documentos%20compartidos/Forms/AllItems.aspx" class="correo">AQUÍ</a> encontrarás la carpeta de SharePoint de Infraestructura, solicita el permiso para poder entrar y fijala en tu computadora (con OneDrive).
+                <br>
+               <br>
+               LUDICHART: Accede haciendo click <a href="https://lucid.app/es-LA/users/login#/loggedOut" class="correo">AQUÍ</a>. Las credenciales son: <a class="correo">alonsoporras28@gmail.com</a> y la contraseña <a class="correo">B4nd4t3c4!/2023</a>
+               </p>
+           </article>
+
+           <button class="acordeon">Acceso a Directorio Activo</button>
+             <article class="desplegable">
+                <p> Este video te explicará como acceder al Directorio Activo donde podrás (bla bla bla): </p>
+                    <video controls id="video" src="../assets/videos/ConexionDirectorioRemoto.mp4"></video>
+            </article>
+
+            <button class="acordeon">ServiceDesk</button>
+             <article class="desplegable">
+                <p> Por medio de ServiceDesk nos encargamos de reicibir y dar solución a los problemas técnicos o solicitudes por parte de nuestra compañía. Haciedo click <a href="https://servicedesk.topgroup.tech/index.php?noAUTO=1" class="correo">AQUÍ</a> tendrás acceso a ServiceDesk, ingresas con tus credenciales de red. </p>
+                    <br><img class="servicedesk" src="../assets/imagenes/inicioServiceDesk.png" alt="Página de inicio ServiceDesk">
+            </article>
+
+            <button class="acordeon">Isabella</button>
+            <article class="desplegable">
+               <p> Haciedo click <a href="https://servicedesk.topgroup.tech/index.php?noAUTO=1" class="correo">AQUÍ</a> tendrás acceso a ServiceDesk, ingresas con tus credenciales de red. 
+           </article>
+
+           <button class="acordeon">Alistamiento de equipos</button>
+             <article class="desplegable">
+                <p>El alistamiento de equipos se realiza cuando nos llega un equipo nuevo o cuando se completó algún cambio de equipo. Es recomendable formatear el equipo cada vez que sea usado, con el fin de eviatar errores en el sistema.
+                    <br>
+                1. Sebe debe realizar la instalación de Windows desde la USB que se encuentra en la oficina. Configurar la instalación común y corriente.
+                <br>
+                2. Se debe crear el usuario <a class="correo">tgpadmin</a> cuya contraseña debe ser <a class="correo">topgroup.00</a>, para las preguntas de seguridad todas las respuestas deben ser <a class="correo">topgroup</a>
+                <br>
+                3. Una vez tengamos el equipo listo, debemos subir el dispositivo al dominio de TopGroup de la siguiente manera:
+                <ul>
+                    <li>¬Acceder a configuración y acerca de</li>
+                    <li>¬En la parte derecha ingresar a <a class="correo">Configuración avanzada del sistema</a></li>
+                    <li>¬En <a class="correo">Nombre de equipo</a> cambiar el dominio y se debe colocar <a class="correo">topgroup.com</a></li>
+                </ul>
+                <p>
+                4. Se debe hacer la instalación de las aplicaciones básicas dependiendo del cargo de la persona: 
+                <br>
+                <br>
+                <table class="tablaAppBasicas">
+                <tr class="cargos">
+                    <td>Cargo cualquiera</td>
+                    <td>Cargo Técnico</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Office</td>
+                    <td>Microsoft Office</td>
+                </tr>
+                <tr>
+                    <td>VPN Forticlient</td>
+                    <td>VPN Forticlient</td>
+                </tr>
+                <tr>
+                    <td>7-Zip</td>
+                    <td>7-Zip</td>
+                </tr>
+                <tr>
+                    <td>Adobe Reader</td>
+                    <td>Adobe Reader</td>
+                </tr>
+                <tr>
+                    <td>Navegadores</td>
+                    <td>Navegadores</td>
+                </tr>
+                <tr>
+                    <td>Softphone 3CX</td>
+                    <td>Softphone 3CX</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Teams</td>
+                    <td>Microsoft Teams</td>
+                </tr>
+                <tr>
+                    <td>Anydesk</td>
+                    <td>Anydesk</td>
+                </tr>
+                <tr>
+                    <td>SW Pausas</td>
+                    <td>SW Pausas</td>
+                </tr>
+                <tr>
+                    <td>OCS Inventory</td>
+                    <td>OCS Inventory</td>
+                </tr>
+                <tr>
+                    <td>Notepad ++</td>
+                    <td>Notepad ++</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Putty</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>WinSCP</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>FileZilla</td>
+                </tr>
+            </table>
+            </p>
+                <br>
+                <p>
+                5. Si es un usuario nuevo, este se debe crear desde el Directorio Activo, de lo contrario solo se debe ingresar las credenciales del usuario ya existente.
+                </p>
+            </article>
+ 
+        
+    </article>
+    </main>
+    
+</body>
+
+<script src="../js/main.js"></script>
+
+</html>

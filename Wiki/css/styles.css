@@ -1,0 +1,398 @@
+/*
+COLORES:
+#1A81B1
+#1a81b19a
+#1a81b136
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+    text-decoration: none;
+}
+
+
+header{
+    display: inline-flex;
+    background-color:#1A81B1 ;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_principal{
+    size: 15px;
+}
+
+.titulo{
+    align-content: center;
+    font-size: 25px;
+}
+
+.content_principal{
+    background-color: #1a81b19a;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.content_principal h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.content_principal p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn_comenzar{
+    background-color: #1a81b19a;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+    transition: all 300ms ease;
+}
+
+.btn_comenzar:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #1a81b19a;
+} 
+
+.btn_privado{
+    background-color: white;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.btn_privado:hover{
+    transform: scale(1.1);
+    background-color: #dbdbdb;
+    color: white;
+    
+}
+
+.equipo_infra{
+    background-color: white;
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_equipo{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.integrante_equipo{
+    background-color: #1a81b19a;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.integrante_equipo>h2{
+    color: black;
+    font-size: 28px;
+    padding: 1px;
+}
+
+
+.imgIntegrante{
+    width: 100%;
+    border-radius: 90% 60%;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.menu{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.menu ul li a{
+    font-family: calibri;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 21px;
+}
+.acordeon{
+    margin: 5px auto;
+    padding: 10px;
+    font-size: 23px;
+    width: 100%;
+    background-color: #1a81b19a;
+    transition: all 300ms;
+    text-align: left;
+    border: none;
+}
+
+.acordeon:hover{
+    background-color: #1a81b136;
+    border: none
+}
+
+.activo, .desplegable{
+    background-color: #1a81b136;
+    color: white;
+    transition: all 300ms ease;
+    color: black;
+    padding: 20px;
+    display: none;
+    margin: 1px 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo_secu
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+
+.directorio{
+    display: inline-flex;
+    width: 100%;
+    padding: 20px;
+    align-items: up;
+    background-color:#1a81b136 ;
+}
+
+.equipo{
+    width: 60%;
+    font-size: 27px;
+    display: inline-block;
+}
+
+.equipo p{
+    font-size: 17px;
+}
+
+.equipo ul{
+    border: black;
+}
+
+.titulo_secu p{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(58, 58, 58);
+}
+
+.desplegable img{
+    width: 30%;
+    size: 5px;
+    margin: 12px;
+}
+
+.correo{
+    display: inline-flexbox;
+    color: blue;
+    text-decoration: skyblue;
+}
+
+.desplegable p{
+    text-align: start;
+    font-size: 20px;
+}
+
+.redmine{
+    size-adjust: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.documento{
+    text-align: start;
+    font-size: 20px;
+}
+
+.video{
+    text-align: start;
+    size: 50%;
+    margin: 10px;
+    padding: 10px;  
+} 
+
+.mediosDeComu>table{
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+.mediosDeComu img{
+    display: block;
+    block-size: 20px 20px;
+    width: 90%;
+    margin: 10px;
+}
+
+.desplegable > ul > li{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+    text-align: justify;
+}
+
+video{
+    width: 70%;
+    margin: 20px;
+    justify-content: center;
+}
+
+.tablaAppBasicas{
+    width: 40%;
+    font-size: 18px;
+    display: inline-table;
+    border: black solid 1px;
+    margin: 5px;
+    box-shadow: black;
+}
+
+.tablaAppBasicas td{
+    padding: 10px;
+    border-block-end: black solid 1px;
+    border: black solid 1px;
+}
+
+.cargos{
+    border: black solid 1px;
+    margin: 2px;
+    background-color: #1a81b136;
+}
+
+.bodyLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../assets/imagenes/fondoLogin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor{
+    width: 40%;
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid rgb(225, 255, 255, .5);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    color: white;
+    border-radius: 10px;
+}
+
+.contenedor h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.contenedor .cajaLogin{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    padding: 2px;
+    color: white;
+}
+
+.cajaLogin input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(225, 255, 255);
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.cajaLogin input::placeholder{
+    color: rgba(255, 255, 255, 0.445);
+}
+
+.cajaLogin i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.cajaLogin .recuerdame{
+   padding: 6px;
+    color: white;
+}
+
+.btnLogin{
+    width: 100%;
+    height: 45px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer; 
+    font-size: 16px;
+    color: black;
+}
